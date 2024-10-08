@@ -9,7 +9,7 @@ session_start();
     <title>GeoLoc Attendance</title>
     <link rel ="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQ-JTbsBf1D6yayoW3mGvNHo0aJja6ZFE&libraries=places"></script>
+<!--     <script async defer src=""></script> Use your Google API Key in the source -->
 </head>
 <body>
 
