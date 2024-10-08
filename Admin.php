@@ -244,7 +244,7 @@ while ($row = $dayWiseResult->fetch_assoc()) {
                           <?php endwhile; ?>
                       <?php else: ?>
                           <tr>
-                              <td colspan="2">No data available for this user.</td>
+                              <td colspan="2"><p style="color:red;">No data available for this user.</p></td>
                           </tr>
                       <?php endif; ?>
                   </tbody>
@@ -409,7 +409,7 @@ while ($row = $dayWiseResult->fetch_assoc()) {
                 </tbody>
             </table>
             <?php elseif (isset($inputUsername)): ?>
-                <p>No data found for user: <?php echo htmlspecialchars($inputUsername); ?></p>
+                <p style="color:red;">No data found for user: <?php echo htmlspecialchars($inputUsername); ?></p>
             <?php endif; ?>
           <div style="height: 300px">
             <canvas id="chart3" width="100%">
