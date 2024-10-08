@@ -117,7 +117,7 @@ if (isset($_GET['username']) && !empty($_GET['username'])) {
                 </tbody>
             </table>
         <?php elseif (isset($inputUsername)): ?>
-            <p>No data found for user: <?php echo htmlspecialchars($inputUsername); ?></p>
+            <p style="color:red;">No data found for user: <?php echo htmlspecialchars($inputUsername); ?></p>
         <?php endif; ?>
     </main>
 
